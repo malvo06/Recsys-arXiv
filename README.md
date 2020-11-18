@@ -16,7 +16,7 @@ wget https://lfs.aminer.cn/lab-datasets/citation/dblp.v10.zip
 
 ### Models
 <h3><a href="Memory Based Collaborative Filtering.ipynb">Memory Based Collaborative Filtering </a></h3>
-This notebook has the full model and can be used to find similar papers and users. The model is based on td-idf vectorization and cosine similarity. Then the results are analyzed for the most relavent authors.
+This notebook has the full model and can be used to find similar papers and users. The model is based on td-idf vectorization and cosine similarity. Then the results are analyzed for the most relavent authors. The two datafiles (abstract.pkl and authors.pkl) needed for this notebook can be dl'd directly here https://www.kaggle.com/dracophylla/cmpe256finalproject
 
 <h4><a href="Memory Based Collaborative Filtering with Evaluation.ipynb">Evalutaion of Model</a></h4>
 This notebook goes into detail on how the model was evaluated.
