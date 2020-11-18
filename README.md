@@ -10,6 +10,6 @@ wget https://lfs.aminer.cn/lab-datasets/citation/dblp.v10.zip
 ### Data Preprocessing
 
 <ol>
-  <li><a href="https://github.com/malvo06/Recsys-arXiv/blob/main/Data_Conversion.ipynb">Data Conversion: Opens the json files and saves them into pkl. Also has converts DBLP into a Graph</a></li>
-  <li><a href="https://github.com/malvo06/Recsys-arXiv/blob/main/Data%20Organization.ipynb">Data Organization: Reorganizes the dataframes. Creates </a></li>
+  <li><a href="https://github.com/malvo06/Recsys-arXiv/blob/main/Data_Conversion.ipynb">Data Conversion:</a> Opens the json files and saves them into pkl. Also has converts DBLP into a Graph</li>
+  <li><a href="https://github.com/malvo06/Recsys-arXiv/blob/main/Data%20Organization.ipynb">Data Organization:</a> Reorganizes the dataframes. Creates </li>
 </ol>
