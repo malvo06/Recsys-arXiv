@@ -10,14 +10,19 @@ wget https://lfs.aminer.cn/lab-datasets/citation/dblp.v10.zip
 ### Data Preprocessing
 
 <ol>
-  <li><a href="https://github.com/malvo06/Recsys-arXiv/blob/main/Data_Conversion.ipynb">Data Conversion:</a> Opens the json files and saves them into pkl. Also has converts DBLP into a Graph</li>
-  <li><a href="https://github.com/malvo06/Recsys-arXiv/blob/main/Data%20Organization.ipynb">Data Organization:</a> Reorganizes the dataframes and standardizes the format of authors names. Creates a table with all the papers each author can writen related to the author. Creates another table to form a dictionary to build an author to author graph based on collaboration.</li>
+  <li><a href="Data_Conversion.ipynb">Data Conversion:</a> Opens the json files and saves them into pkl. Also has converts DBLP into a Graph</li>
+  <li><a href="Data%20Organization.ipynb">Data Organization:</a> Reorganizes the dataframes and standardizes the format of authors names. Creates a table with all the papers each author can writen related to the author. Creates another table to form a dictionary to build an author to author graph based on collaboration.</li>
 </ol>
 
 ### Models
 <h3><a href="Memory Based Collaborative Filtering.ipynb">Memory Based Collaborative Filtering </a></h3>
 This notebook has the full model and can be used to find similar papers and users. The model is based on td-idf vectorization and cosine similarity. Then the results are analyzed for the most relavent authors.
 
-<h4><a href="Memory Based Collaborative Filtering with Evaluation.ipynb">Evalutaion of Model</a></h3>
+<h4><a href="Memory Based Collaborative Filtering with Evaluation.ipynb">Evalutaion of Model</a></h4>
 This notebook goes into detail on how the model was evaluated.
 
+### Extra Models! Attempts with Graph and Node2Vec
+<ol>
+  <li><a href="Graph Implementation.ipynb">Data Conversion:</a> Opens the json files and saves them into pkl. Also has converts DBLP into a Graph</li>
+  <li><a href="Graph Implementation with Authors.ipynb">Data Organization:</a> Reorganizes the dataframes and standardizes the format of authors names. Creates a table with all the papers each author can writen related to the author. Creates another table to form a dictionary to build an author to author graph based on collaboration.</li>
+</ol>
